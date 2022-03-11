@@ -1,0 +1,100 @@
+body{
+  text-align: center;
+  background: url(canvaspic.jpg) center center fixed;
+  background-size: cover;
+  color: white
+}
+.header{
+  background:-moz-linear-gradient(rgb(255, 124, 146),rgb(255, 92, 119,0.9));
+  background:-o-linear-gradient(rgb(255, 124, 146),rgb(255, 92, 119,0.9));
+  background:-ms-linear-gradient(rgb(255, 124, 146),rgb(255, 92, 119,0.9));
+  background: -webkit-linear-gradient(rgb(255, 124, 146),rgb(255, 92, 119,0.9));
+  background: linear-gradient(rgb(255, 124, 146),rgb(255, 92, 119,0.9));
+  
+  height:80px;
+  width:800px;
+  margin:10px auto;
+  font-size: 50px;
+  font-family: cursive;
+  color:white;
+  line-height: 70px;
+}
+.inputcontainer{
+  width:200px;
+  margin:0 auto;
+}
+.input{
+  height:50px;
+  font-size:1.8em;
+}
+#slider{
+  margin:10px auto;
+}
+#circle{
+  height:3px;
+  width:3px;
+  border-radius: 50%;
+  background: black;
+  margin:0 auto;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  transform:-ms-translate(-50%,-50%);
+  transform:-o-translate(-50%,-50%);
+  transform:-webkit-translate(-50%,-50%);
+  transform:-moz-translate(-50%,-50%);
+}
+#thick{
+  position:relative;
+}
+
+#container{
+  margin:10px auto;
+  width:600px;
+  height:400px;
+  border:1px solid rgba(255, 25, 63, 0.582);
+  
+}
+#paint{
+
+  background: white;
+  cursor: crosshair;
+}
+#paintcol{
+  width:100px;
+}
+.inputcontainer2{
+  width:399px;
+  margin:15px auto;
+}
+.input2{
+  width:133px;
+  color:white;
+  font-size: 1.3em;
+  float:left;
+}
+
+.button{
+background: rgb(255, 92, 119);
+height: 50px;
+padding: 10px;
+border-radius: 3px;
+font-weight: bold;
+font-family: cursive;
+cursor:pointer;
+box-shadow: 0 4px pink;
+position:relative;
+}
+.button:hover{
+  background: rgb(243, 239, 239);
+  color:rgb(255, 92, 119);
+}
+.button:active{
+  top: 4px;
+}
+.eraseMode{
+  background: rgb(4, 14, 146);
+  color: white;
+  box-shadow: 0 4px rgb(113, 139, 255);
+}
